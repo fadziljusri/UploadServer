@@ -1,0 +1,20 @@
+{
+  "name": "uploadfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload-file.js",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon upload-file.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
