@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var formidable = require('formidable');
+var ip = require('ip');
 
 // html file containing upload form
 var upload_html = fs.readFileSync("upload.html");
@@ -37,5 +38,5 @@ http.createServer(function (req, res) {
         });
     }
 }).listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on http://${ip.address()}:${PORT}/`);
 });

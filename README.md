@@ -10,4 +10,6 @@ npm install
 ```bash
 npm start
 ```
-Running on http://localhost:8080/
+or just click run.bat (Windows only)
+
+Running on http://<IP_ADDRESS>:8080/

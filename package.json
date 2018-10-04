@@ -6,14 +6,16 @@
   "dependencies": {
     "formidable": "^1.2.1",
     "fs": "^0.0.1-security",
-    "http": "^0.0.0"
+    "http": "^0.0.0",
+    "ip": "^1.1.5"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon upload-file.js"
+    "start": "nodemon index.js",
+    "serve": "node index.js"
   },
   "author": "",
   "license": "ISC"
